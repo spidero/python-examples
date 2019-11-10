@@ -19,3 +19,5 @@ parser.add_argument('--param1',
                     )
                   
 parser.add_argument('--param2', default='defaults')
+
+args = parser.parse_args()
